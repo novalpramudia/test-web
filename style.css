@@ -1,0 +1,24 @@
+body {
+  background: #0a0f1c;
+  color: cyan;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 100px;
+}
+
+button {
+  padding: 15px 25px;
+  margin: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: cyan;
+  color: black;
+  transition: 0.3s;
+}
+
+button:hover {
+  box-shadow: 0 0 15px cyan;
+  transform: scale(1.05);
+}
