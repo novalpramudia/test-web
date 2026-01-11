@@ -1,17 +1,11 @@
 <!DOCTYPE html>
-<html lang="id">
+<html>
 <head>
 <meta charset="UTF-8">
-<title>Noval Pramudia | Futuristic Portfolio</title>
+<title>Projects</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <link rel="stylesheet" href="style.css">
-
-<!-- AOS -->
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-<!-- Font -->
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -21,27 +15,39 @@
   <div class="logo">NOVAL<span>_TECH</span></div>
   <div class="menu-toggle" id="menu-toggle">☰</div>
   <ul id="nav-menu">
-    <li><a class="active" href="index.html">Home</a></li>
-    <li><a href="projects.html">Projects</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a class="active" href="projects.html">Projects</a></li>
     <li><a href="skills.html">Skills</a></li>
     <li><a href="contact.html">Contact</a></li>
   </ul>
 </nav>
 
-<section class="hero">
-  <h1 class="glow" data-aos="fade-up">NOVAL PRAMUDIA</h1>
-  <p data-aos="fade-up" data-aos-delay="200">Web Developer • Game Developer • IT Student</p>
+<section class="page">
+<h2 class="glow" data-aos="fade-up">MY PROJECTS</h2>
 
-  <div class="buttons" data-aos="zoom-in" data-aos-delay="400">
-    <a href="projects.html" class="btn">View Projects</a>
-    <a href="contact.html" class="btn outline">Contact Me</a>
+<div class="grid">
+  <div class="card" data-aos="zoom-in">
+    <img src="assets/img/projects/project1.jpg">
+    <h3>Zombie Shooter</h3>
+    <p>Game Python / JS</p>
   </div>
+
+  <div class="card" data-aos="zoom-in">
+    <img src="assets/img/projects/project2.jpg">
+    <h3>Web Store</h3>
+    <p>E-commerce HTML CSS JS</p>
+  </div>
+
+  <div class="card" data-aos="zoom-in">
+    <img src="assets/img/projects/project3.jpg">
+    <h3>Portfolio</h3>
+    <p>Futuristic Website</p>
+  </div>
+</div>
 </section>
 
-<!-- JS -->
 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 <script src="script.js"></script>
-
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>AOS.init();</script>
 
